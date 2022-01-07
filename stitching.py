@@ -86,8 +86,7 @@ def stitch2Images(img1, img2):
 
 
 if __name__ == '__main__':
-    pths = glob('input_image/grail/*.jpg')
-    # pths = ['input_image/DSC_0171.jpg', 'input_image/DSC_0172.jpg']
+    pths = glob('input_image/grail/*.jpg')[:10]
     img = cv.imread(pths[0], )
     for p in pths[1:]:
         temp = cv.imread(p, )

@@ -1,5 +1,5 @@
 # Image stitching using SIFT
- simple stitching project which use SIFT as Keypoint for detecting and describtion then use RANSAK for Estimating the Homography and distance transform for Blending
+ simple stitching project which use SIFT as Keypoint for detecting and describtion then use RANSAC for Estimating the Homography and distance transform for Blending
 Simple project for image stitching as follow: 
 
 1- Registration (point-to-point matching): 
@@ -16,7 +16,7 @@ Estimate the homography matrix using RANSAC.
 
 "Normalize" the homography matrix to produce positive coordinates (multiplying by transition matrix)
 
-3- blinding ( removing the artifacts): by using distance transform.
+3- blending ( removing the artifacts): by using distance transform.
 
  
  # Results

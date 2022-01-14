@@ -10,7 +10,7 @@ from glob import glob
 # Reprojection
 #   find Homography
 #   reproject each
-# blinding
+# blending
 #   use distance transfor
 def isoscaling(img, isoscale=500):
     md = min(img.shape[:2])
